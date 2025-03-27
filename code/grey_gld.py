@@ -1,5 +1,9 @@
 """
 Author: duan
+灰色关联度分析 (Grey Relational Analysis)
+功能：量化直播带货中各类营销策略对消费者购买行为的影响程度
+输入：gld.csv（包含9类策略的评分数据）
+输出：灰色关联度排序及关键因素分析
 """
 import numpy as np
 import pandas as pd
