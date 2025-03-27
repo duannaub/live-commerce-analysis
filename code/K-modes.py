@@ -1,5 +1,9 @@
 """
 Author: duan
+K-modes聚类分析
+功能：对消费者喜欢的主播特征进行聚类分组
+输入：jl.csv（原始数据）
+输出：聚类标签和肘部法则图
 """
 import pandas as pd
 import matplotlib.pyplot as plt
